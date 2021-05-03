@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0ceaf61d-4d92-4820-b74d-1f80800f3b7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/Card.py" beforeDir="false" afterPath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/Card.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/CardGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/CardGame.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/war_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/war_main.py" afterDir="false" />
     </list>
@@ -36,7 +37,28 @@
       <recent name="C:\Users\Eyal\Desktop\BIG python Project\BIG_pythonProject-master\Classes" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.war_main">
+    <configuration name="Card" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BIG python Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BIG_pythonProject-master/Classes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BIG_pythonProject-master/Classes/Card.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="war_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIG python Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -61,6 +83,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.war_main" />
+        <item itemvalue="Python.Card" />
       </list>
     </recent_temporary>
   </component>

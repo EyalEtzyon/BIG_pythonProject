@@ -21,9 +21,9 @@ class CardGame:
 
 
     def get_winner(self):
-        if len(self.player1.hand) > len(self.player2.hand):
+        if len(self.player1.hand) < len(self.player2.hand):
             return  self.player1
-        elif len(self.player1.hand) < len(self.player2.hand):
+        elif len(self.player1.hand) > len(self.player2.hand):
             return self.player2
         else:
             return None
