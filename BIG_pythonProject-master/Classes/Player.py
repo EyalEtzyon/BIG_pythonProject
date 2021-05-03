@@ -14,9 +14,20 @@ class Player:
         for i in range(self.cardsNum):
             self.hand.append(deck.deal_one())
 
+
+
+    def get_card(self):
+        return self.hand.pop(random.randrange(0,len(self.hand)))
+
+    def add_card(self):
+        
+
+
+
 P1 = Player("Eyal",10 )
 deck=DeckOfCards()
 P1.setHand(deck)
 print(P1.hand)
+print(P1.get_card())
 
 
