@@ -9,7 +9,8 @@ class Player:
             cardsNum=26
         self.cardsNum = cardsNum
 
-
+    def __repr__(self):
+        return f"{self.name} {self.hand}"
 
     def setHand(self, deck):
         for i in range(self.cardsNum):
