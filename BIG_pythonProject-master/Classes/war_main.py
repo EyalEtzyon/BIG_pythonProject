@@ -29,8 +29,12 @@ for i in range(10):
             game.player1.add_card(card1)
             print("winner: ", game.player2.name)
 
-            
 
+if len(game.player1.hand)> len(game.player2.hand):
+    print(game.player2.name,"is the WINNER!")
+elif len(game.player2.hand)> len(game.player1.hand):
+        print(game.player1.name,"is the WINNER!")
+else: print("ITS A TIE")
 
 
 
