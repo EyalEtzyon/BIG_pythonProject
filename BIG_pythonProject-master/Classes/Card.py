@@ -1,2 +1,3 @@
 class Card:
-    def
+    def card(self):
+
