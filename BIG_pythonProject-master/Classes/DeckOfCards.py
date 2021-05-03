@@ -17,6 +17,11 @@ class DeckOfCards:
         for i in self.deck:
             print(i)
 
+    def deal_one(self):
+        card = self.deck.pop(random.randrange(0, len(self.deck)))
+        return card
+
+
 
 deck = DeckOfCards()
 deck.shuffle()
