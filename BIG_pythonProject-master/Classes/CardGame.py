@@ -25,8 +25,8 @@ class CardGame:
             return None
 
 
-
-game=CardGame()
+#
+# game=CardGame()
 # game.deck.show()
 # game.player1.show()
 # game.player2.add_card(Card(1,1))

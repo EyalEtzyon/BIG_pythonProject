@@ -23,7 +23,7 @@ class DeckOfCards:
 
 
 
-deck = DeckOfCards()
-deck.shuffle()
+# deck = DeckOfCards()
+# deck.shuffle()
 # deck.show()
 
