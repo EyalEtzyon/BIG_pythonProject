@@ -1,4 +1,5 @@
 from Card import Card
+import random
 
 class DeckOfCards:
     def __init__(self):
@@ -8,11 +9,16 @@ class DeckOfCards:
                 card=Card(v,s)
                 self.deck.append(card)
 
+
+    def shuffle(self):
+        random.shuffle(self.deck)
+
     def show(self):
         for i in self.deck:
             print(i)
 
 
 deck = DeckOfCards()
+deck.shuffle()
 deck.show()
 
