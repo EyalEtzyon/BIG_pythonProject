@@ -17,14 +17,21 @@ class CardGame:
 
 
     def get_winner(self):
+        if len(self.player1.hand) > len(self.player2.hand):
+            return  self.player1
+        elif len(self.player1.hand) < len(self.player2.hand):
+            return self.player2
+        else:
+            return None
 
 
 
-# game=CardGame()
+game=CardGame()
 # game.deck.show()
 # game.player1.show()
-# game.player2.show()
-# print(len(game.deck.deck))
+# game.player2.add_card(Card(1,1))
+# # game.player2.show()
+# print(game.get_winner())
 
 
 
