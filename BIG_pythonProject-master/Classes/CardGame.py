@@ -11,9 +11,13 @@ class CardGame:
 
 
     def new_game(self):
-        self.deck.shuffle()
-        self.player1.setHand(self.deck)
-        self.player2.setHand(self.deck)
+        if len(self.deck.deck)==52:
+            self.deck.shuffle()
+            self.player1.setHand(self.deck)
+            self.player2.setHand(self.deck)
+        else:
+            print("ERROR")
+
 
 
     def get_winner(self):

@@ -2,23 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ceaf61d-4d92-4820-b74d-1f80800f3b7c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIG_pythonProject-master/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIG_pythonProject-master/.idea/BIG_pythonProject.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIG_pythonProject-master/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIG_pythonProject-master/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIG_pythonProject-master/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIG_pythonProject-master/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIG_pythonProject-master/war_main/war_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/BIG_pythonProject-master/war_main/war_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/CardGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/CardGame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/war_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/war_main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,6 +30,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Eyal\Desktop\BIG python Project\BIG_pythonProject-master\Classes" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="war_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -71,5 +74,16 @@
       <updated>1620037156800</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
