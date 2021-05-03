@@ -8,5 +8,3 @@ class Card:
     def __repr__(self):
         return f"value: {self.value} suit: {self.suit}"
 
-
-
