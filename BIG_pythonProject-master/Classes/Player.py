@@ -1,4 +1,5 @@
 from DeckOfCards import *
+from Card import *
 
 class Player:
     def __init__(self, name, cardsNum=10):
@@ -19,15 +20,18 @@ class Player:
     def get_card(self):
         return self.hand.pop(random.randrange(0,len(self.hand)))
 
-    def add_card(self):
-        
+    def add_card(self, card):
+        self.hand.append(card)
 
 
 
-P1 = Player("Eyal",10 )
+
+P1 = Player("Eyal")
 deck=DeckOfCards()
 P1.setHand(deck)
+# print(P1.hand)
+# print(P1.get_card())
+P1.add_card(Card(1,1))
 print(P1.hand)
-print(P1.get_card())
 
 
