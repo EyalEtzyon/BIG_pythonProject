@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ceaf61d-4d92-4820-b74d-1f80800f3b7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BIG_pythonProject-master/venv/Lib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BIG_pythonProject-master/venv/Lib/site-packages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BIG_pythonProject-master/venv/Lib/site-packages/pkg_resources/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BIG_pythonProject-master/venv/Lib/site-packages/pkg_resources/tests/test_Card.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BIG_pythonProject-master/venv/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/Card.py" beforeDir="false" afterPath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/Card.py" afterDir="false" />
     </list>
@@ -24,6 +19,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1s1PWbevGXwerDdaRj8mr29KlZS" />
   <component name="ProjectViewState">

@@ -5,7 +5,10 @@ class Card:
             self.value=value
         else:
             print("ERROR")
-        self.suit = suit
+            if 1<=suit<=4:
+                self.suit = suit
+            else:
+                print("ERROR")
 
 
         self.values = {1:"Ace", 2:2, 3:3, 4:4, 5:5, 6:6, 7:7, 8:8, 9:9, 10:10, 11:"Jack", 12:"Queen", 13:"King"}
