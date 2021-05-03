@@ -1,7 +1,10 @@
 class Card:
 
     def __init__(self, value, suit):
-        self.value = value
+        if 1<=value<=13:
+            self.value=value
+        else:
+            print("ERROR")
         self.suit = suit
 
 
@@ -23,6 +26,11 @@ class Card:
 
         if v1>v2:
              return True
+        elif v1==v2:
+            if self.suit>other.suit:
+                return True
+            else:
+                return False
         else:
             return False
 

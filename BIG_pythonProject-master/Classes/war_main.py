@@ -15,19 +15,11 @@ for i in range(10):
         game.player2.add_card(card1)
         game.player2.add_card(card2)
         print("winner: ", game.player1.name)
-    elif card2>card1:
+    else:
         game.player1.add_card(card2)
         game.player1.add_card(card1)
         print("winner: ", game.player2.name)
-    else:
-        if card1.suit>card2.suit:
-            game.player2.add_card(card1)
-            game.player2.add_card(card2)
-            print("winner: ", game.player1.name)
-        if card2.suit>card1.suit:
-            game.player1.add_card(card2)
-            game.player1.add_card(card1)
-            print("winner: ", game.player2.name)
+
 
 
 if len(game.player1.hand)> len(game.player2.hand):
