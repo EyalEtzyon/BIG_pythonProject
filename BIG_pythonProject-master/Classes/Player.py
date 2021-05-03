@@ -24,6 +24,10 @@ class Player:
         self.hand.append(card)
 
 
+    def show(self):
+        print(f"name: {self.name} hand: {self.hand}")
+
+
 
 
 P1 = Player("Eyal")
@@ -31,7 +35,7 @@ deck=DeckOfCards()
 P1.setHand(deck)
 # print(P1.hand)
 # print(P1.get_card())
-P1.add_card(Card(1,1))
-print(P1.hand)
+# P1.add_card(Card(1,1))
+P1.show()
 
 
