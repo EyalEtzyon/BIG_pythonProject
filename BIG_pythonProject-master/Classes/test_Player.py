@@ -56,12 +56,13 @@ class TestPlayer(TestCase):
 
 
 
-    # # @mock.patch("Player.Player.deal_one", return_value=Card(1,1))
-    # def test_set_hand(self):
-    #         Eyal = Player("Eyal", 3)
-    #         deck = DeckOfCards()
-    #         Eyal.setHand()
-    #         self.assertIn(Card(1,1), Eyal.hand)
+    @mock.patch("DeckOfCards.DeckOfCards.deal_one", return_value=Card(1,1))
+    def test_set_hand(self, mock_deal_one):
+            Eyal = Player("Eyal", 3)
+            deck = DeckOfCards()
+            Eyal.setHand(deck)
+            self.assertIn(Card(1,1), Eyal.hand)
+            self.assertEqual(Eyal.hand.count(Card(1,1)),3)
 
 
 
