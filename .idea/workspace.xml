@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0ceaf61d-4d92-4820-b74d-1f80800f3b7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/Card.py" beforeDir="false" afterPath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/Card.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/test_Card.py" beforeDir="false" afterPath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/test_Card.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/test_DeckOfCards.py" beforeDir="false" afterPath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/test_DeckOfCards.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +43,7 @@
       <recent name="C:\Users\Eyal\Desktop\BIG python Project\BIG_pythonProject-master\Classes" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_Card.py">
+  <component name="RunManager" selected="Python tests.Unittests for test_DeckOfCards.TestDeckOfCards.test_deal_one">
     <configuration name="Unittests for test_Card.TestCard.test_eq_between_cards_true" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="BIG python Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,20 +58,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_Card.TestCard.test_gt_betweenCards" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="BIG python Project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BIG_pythonProject-master/Classes" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Card.TestCard.test_gt_betweenCards&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for test_Card.TestCard.test_gt_betweenCards_false" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="BIG python Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,6 +69,20 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_Card.TestCard.test_gt_betweenCards_false&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_DeckOfCards.TestDeckOfCards.test_deal_one" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="BIG python Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BIG_pythonProject-master/Classes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_DeckOfCards.TestDeckOfCards.test_deal_one&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -118,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_DeckOfCards.TestDeckOfCards.test_deal_one" />
+        <item itemvalue="Python tests.Unittests for test_DeckOfCards.TestDeckOfCards.test_shuffle" />
         <item itemvalue="Python tests.Unittests in test_Card.py" />
         <item itemvalue="Python tests.Unittests for test_Card.TestCard.test_eq_between_cards_true" />
-        <item itemvalue="Python tests.Unittests for test_DeckOfCards.TestDeckOfCards.test_shuffle" />
         <item itemvalue="Python tests.Unittests for test_Card.TestCard.test_gt_betweenCards_false" />
-        <item itemvalue="Python tests.Unittests for test_Card.TestCard.test_gt_betweenCards" />
       </list>
     </recent_temporary>
   </component>

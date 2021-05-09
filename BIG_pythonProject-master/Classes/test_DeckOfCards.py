@@ -10,18 +10,25 @@ class TestDeckOfCards(TestCase):
 
 
     def test_shuffle(self):
-       before  =self.d.deck
+       before  =self.d.deck.copy()
        self.d.shuffle()
-       after = self.d.deck
-       self.assertNotEqual()
+       after = self.d.deck.copy()
+       if before!=after:
+            self.assertTrue(True)
+       else:
+            self.assertTrue(False)
 
 
-
-
-    def test_show(self):
-        self.fail()
 
 
 
     def test_deal_one(self):
-        self.fail()
+        before = self.d.deck.copy()
+        self.d.deal_one()
+        after = self.d.deck.copy()
+        if before != after:
+            self.assertTrue(True)
+        else:
+            self.assertTrue(False)
+
+
