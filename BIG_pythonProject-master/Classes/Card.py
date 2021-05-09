@@ -1,5 +1,5 @@
 class Card:
-
+# create new Card with value between 1-13 and suit between 1-4
     def __init__(self, value, suit):
         if 1<=value<=13 and 1<=suit<=4:
             self.value=value
@@ -15,10 +15,11 @@ class Card:
         self.suits = {1: "Diamond♦", 2: "Spade ♠", 3: "Heart 🖤 ", 4: "Club ♣"}
 
 
-
+#returns the card in a user friendly way
     def __repr__(self):
         return f"{self.values[self.value]} {self.suits[self.suit]}"
 
+#comnpares between cards
     def __gt__(self, other):
         if type(other)!=Card:
             raise ValueError("other not card")
