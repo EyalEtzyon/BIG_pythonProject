@@ -1,6 +1,10 @@
 from unittest import TestCase
 from Player import *
 from unittest import mock
+from unittest.mock import patch
+
+
+
 class TestPlayer(TestCase):
 
 #test invalid name
@@ -52,10 +56,21 @@ class TestPlayer(TestCase):
 
 
 
-
+    # # @mock.patch("Player.Player.deal_one", return_value=Card(1,1))
     # def test_set_hand(self):
-    #     self.fail()
-    #
+    #         Eyal = Player("Eyal", 3)
+    #         deck = DeckOfCards()
+    #         Eyal.setHand()
+    #         self.assertIn(Card(1,1), Eyal.hand)
+
+
+
+
+
+
+
+
+
 
 
 
@@ -72,20 +87,16 @@ class TestPlayer(TestCase):
         else:
             self.assertTrue(False)
 
-
-
-
-
+        # testing the hand after we add card.
+        # if the card is in the hand after we add it, the test will pass.
     def test_add_card(self):
+            Eyal = Player("Eyal")
+            Eyal.add_card(Card(3, 3))
+            after = Eyal.hand.copy()
+            if Card(3, 3) in after:
+                self.assertTrue(True)
+            else:
+                self.assertTrue(False)
 
-        Eyal = Player("Eyal")
-        Eyal.hand = [Card(1, 1), Card(2, 1)]
-        before = Eyal.hand.copy()
-        Eyal.add_card(Card(3,3))
-        after = Eyal.hand.copy()
-        if Card(3,3) in Eyal.hand:
-            self.assertTrue(True)
-        else:
-            self.assertTrue(False)
 
 
