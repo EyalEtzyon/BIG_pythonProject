@@ -24,9 +24,10 @@ class TestDeckOfCards(TestCase):
 
     def test_deal_one(self):
         before = self.d.deck.copy()
-        self.d.deal_one()
+        c=self.d.deal_one()
+        self.assertTrue(type(c)==Card)
         after = self.d.deck.copy()
-        if before != after:
+        if c in before and c not in after:
             self.assertTrue(True)
         else:
             self.assertTrue(False)

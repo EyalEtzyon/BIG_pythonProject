@@ -87,10 +87,15 @@ class TestCard(TestCase):
             self.assertTrue(True)
 
 
-    def test_eq_between_cards_true(self):
+    def test_eq_between_cards_False(self):
         c1 = Card(1, 2)
         c2 = Card(1, 1)
-        self.assertTrue(c1 == c2)
+        self.assertFalse(c1 == c2)
+
+    def test_eq_between_cards_true(self):
+            c1 = Card(1, 1)
+            c2 = Card(1, 1)
+            self.assertTrue(c1 == c2)
 
     def test_eq_between_cards_false(self):
         c1 = Card(5, 2)

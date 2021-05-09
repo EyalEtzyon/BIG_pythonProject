@@ -56,11 +56,36 @@ class TestPlayer(TestCase):
     # def test_set_hand(self):
     #     self.fail()
     #
-    # def test_get_card(self):
-    #     self.fail()
-    #
-    # def test_add_card(self):
-    #     self.fail()
-    #
-    # def test_show(self):
-    #     self.fail()
+
+
+
+
+    def test_get_card(self):
+        Eyal = Player("Eyal",2)
+        Eyal.hand = [Card(1,1),Card(2,1)]
+        before = Eyal.hand.copy()
+        c = Eyal.get_card()
+        self.assertTrue(type(c)==Card)
+        after = Eyal.hand.copy()
+        if c not in after and c in before:
+            self.assertTrue(True)
+        else:
+            self.assertTrue(False)
+
+
+
+
+
+    def test_add_card(self):
+
+        Eyal = Player("Eyal")
+        Eyal.hand = [Card(1, 1), Card(2, 1)]
+        before = Eyal.hand.copy()
+        Eyal.add_card(Card(3,3))
+        after = Eyal.hand.copy()
+        if Card(3,3) in Eyal.hand:
+            self.assertTrue(True)
+        else:
+            self.assertTrue(False)
+
+

@@ -45,7 +45,8 @@ class Card:
         if type(other) != Card:
             raise ValueError("other not card")
 
-        if self.value==other.value:
+        if self.value==other.value and self.suit==other.suit:
+
             return True
         else:
             return False
