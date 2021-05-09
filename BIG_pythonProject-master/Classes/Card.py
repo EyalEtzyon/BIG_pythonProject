@@ -19,7 +19,7 @@ class Card:
     def __repr__(self):
         return f"{self.values[self.value]} {self.suits[self.suit]}"
 
-#comnpares between cards
+#comnpares between cards - returns true if srlf is greater then other
     def __gt__(self, other):
         if type(other)!=Card:
             raise ValueError("other not card")
@@ -40,5 +40,14 @@ class Card:
         else:
             return False
 
+#comnpares between cards - returns true if self equal to other
+    def __eq__(self, other):
+        if type(other) != Card:
+            raise ValueError("other not card")
+
+        if self.value==other.value:
+            return True
+        else:
+            return False
 
 
