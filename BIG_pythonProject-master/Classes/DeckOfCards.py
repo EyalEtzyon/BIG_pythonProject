@@ -2,6 +2,8 @@ from Card import Card
 import random
 
 class DeckOfCards:
+    #creating a list of cards - the deck of cards
+
     def __init__(self):
         self.deck = []
         for s in range(1,5):
