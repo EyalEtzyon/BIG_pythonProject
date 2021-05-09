@@ -1,14 +1,14 @@
 class Card:
 
     def __init__(self, value, suit):
-        if 1<=value<=13:
+        if 1<=value<=13 and 1<=suit<=4:
             self.value=value
         else:
-            print("ERROR")
+            raise ValueError("ERROR")
         if 1<=suit<=4:
             self.suit = suit
         else:
-            print("ERROR")
+            raise ValueError("ERROR")
 
 
         self.values = {1:"Ace", 2:2, 3:3, 4:4, 5:5, 6:6, 7:7, 8:8, 9:9, 10:10, 11:"Jack", 12:"Queen", 13:"King"}
@@ -20,6 +20,8 @@ class Card:
         return f"{self.values[self.value]} {self.suits[self.suit]}"
 
     def __gt__(self, other):
+        if type(other)!=Card:
+            raise ValueError("other not card")
         v1 = self.value
         v2 = other.value
         if v1 == 1:
