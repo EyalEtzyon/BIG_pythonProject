@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0ceaf61d-4d92-4820-b74d-1f80800f3b7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/CardGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/CardGame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/test_CardGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/test_CardGame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/test_DeckOfCards.py" beforeDir="false" afterPath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/test_DeckOfCards.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/war_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/BIG_pythonProject-master/Classes/war_main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
