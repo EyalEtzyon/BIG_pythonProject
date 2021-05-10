@@ -9,6 +9,18 @@ class TestDeckOfCards(TestCase):
         self.d=DeckOfCards()
 
 
+
+
+    def test_constractor(self):
+     for s in range(1,5):
+         for v in range(1,14):
+            card = Card(v, s)
+            if card not in self.d.deck:
+                self.assertTrue(False)
+     else:
+        self.assertTrue(True)
+
+
     def test_shuffle(self):
        before  =self.d.deck.copy()
        self.d.shuffle()

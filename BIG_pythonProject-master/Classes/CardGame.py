@@ -2,10 +2,10 @@ from Player import *
 from DeckOfCards import *
 
 class CardGame:
-    def __init__(self, player_cards=10):
+    def __init__(self, name1, name2, player_cards=10):
 
-        self.player1=Player(input("Enter player 1 name: "), player_cards)
-        self.player2=Player(input("Enter player 2 name: "), player_cards)
+        self.player1=Player(name1, player_cards)
+        self.player2=Player(name2, player_cards)
         self.deck = DeckOfCards()
         self.new_game()
 

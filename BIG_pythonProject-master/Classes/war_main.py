@@ -1,7 +1,7 @@
 from CardGame import *
 from Player import *
 from Card import *
-game = CardGame()
+game = CardGame(input("Name of player 1: "), input("Name of player2: "))
 game.player1.show()
 game.player2.show()
 
@@ -22,11 +22,14 @@ for i in range(10):
 
 
 
-if len(game.player1.hand)> len(game.player2.hand):
-    print(game.player2.name,"is the WINNER!")
-elif len(game.player2.hand)> len(game.player1.hand):
-        print(game.player1.name,"is the WINNER!")
-else: print("ITS A TIE")
+#  task 7
+if game.get_winner()==game.player2:
+    print(f"The Winner Is... {game.player2.name}!!!")
+if game.get_winner()==game.player1:
+    print(f"The Winner Is... {game.player1.name}!!!")
+if game.get_winner()==None:
+    print("Fair Fight.. It's a TIE!!!")
+
 
 
 
